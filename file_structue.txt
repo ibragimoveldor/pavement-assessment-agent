@@ -1,0 +1,48 @@
+# Create project directory
+mkdir pavement-assessment-agent
+cd pavement-assessment-agent
+
+# Create folder structure
+mkdir -p app/{api/routes,agents,models,database,core}
+mkdir -p uploads
+mkdir -p tests
+touch app/__init__.py
+touch app/api/__init__.py
+touch app/api/routes/__init__.py
+```
+
+**Final structure:**
+```
+pavement-assessment-agent/
+├── app/
+│   ├── __init__.py
+│   ├── main.py                    # FastAPI app
+│   ├── config.py                  # Configuration
+│   ├── api/
+│   │   ├── __init__.py
+│   │   └── routes/
+│   │       ├── __init__.py
+│   │       ├── analyze.py         # Image analysis endpoints
+│   │       └── chat.py            # Chat endpoints
+│   ├── agents/
+│   │   ├── __init__.py
+│   │   ├── graph.py               # LangGraph workflow
+│   │   └── tools.py               # Custom tools
+│   ├── models/
+│   │   ├── __init__.py
+│   │   ├── yolo_detector.py       # YOLO wrapper
+│   │   └── pci_calculator.py      # PCI calculation
+│   ├── database/
+│   │   ├── __init__.py
+│   │   ├── models.py              # SQLAlchemy models
+│   │   └── crud.py                # Database operations
+│   └── core/
+│       ├── __init__.py
+│       └── aws_bedrock.py         # AWS Bedrock client
+├── frontend/
+│   └── gradio_app.py              # Gradio interface
+├── uploads/                        # Image uploads
+├── requirements.txt
+├── .env                           # Environment variables
+├── .gitignore
+└── README.md

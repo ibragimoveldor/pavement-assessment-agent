@@ -1,0 +1,29 @@
+# Install packages
+fastapi
+uvicorn
+sqlalchemy
+psycopg2-binary
+python-multipart
+python-dotenv
+pydantic
+pydantic-settings
+
+# LangChain & AWS
+langchain
+langchain-aws
+langchain-community
+langchain-core
+langgraph
+boto3
+
+# YOLO & Image Processing
+ultralytics
+opencv-python
+pillow
+
+# Gradio
+gradio
+
+# Database
+alembic
+
