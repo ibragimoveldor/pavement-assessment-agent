@@ -2,10 +2,11 @@
 
 AI-powered pavement condition assessment using YOLO, LangGraph, and AWS Bedrock.
 
-[![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/)
-[![FastAPI](https://img.shields.io/badge/FastAPI-0.109-green.svg)](https://fastapi.tiangolo.com/)
-[![LangChain](https://img.shields.io/badge/LangChain-0.1-orange.svg)](https://langchain.com/)
-
+[![Python](https://img.shields.io/badge/Python-3.13-blue.svg)](https://www.python.org/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-0.115-009688.svg)](https://fastapi.tiangolo.com/)
+[![LangChain](https://img.shields.io/badge/LangChain-0.3-1C3C3C.svg)](https://langchain.com/)
+[![LangGraph](https://img.shields.io/badge/LangGraph-0.2-FF4785.svg)](https://langchain-ai.github.io/langgraph/)
+[![AWS Bedrock](https://img.shields.io/badge/AWS_Bedrock-Claude_3.5-FF9900.svg)](https://aws.amazon.com/bedrock/)
 ---
 
 ## 🎯 Overview
