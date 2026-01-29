@@ -313,7 +313,7 @@ This project is for educational/portfolio purposes.
 
 **Eldor Ibragimov**
 - GitHub: [@ibragimoveldor](https://github.com/ibragimoveldor)
-- LinkedIn: [Your LinkedIn]
+- Portfolio: [eldoribragimov.cv]
 
 ---
 
