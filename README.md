@@ -6,7 +6,7 @@ AI-powered pavement condition assessment using YOLO, LangGraph, and AWS Bedrock.
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.115-009688.svg)](https://fastapi.tiangolo.com/)
 [![LangChain](https://img.shields.io/badge/LangChain-0.3-1C3C3C.svg)](https://langchain.com/)
 [![LangGraph](https://img.shields.io/badge/LangGraph-0.2-FF4785.svg)](https://langchain-ai.github.io/langgraph/)
-[![AWS Bedrock](https://img.shields.io/badge/AWS_Bedrock-Claude_3.5-FF9900.svg)](https://aws.amazon.com/bedrock/)
+[![AWS Bedrock](https://img.shields.io/badge/AWS_Bedrock-Claude_4.5-FF9900.svg)](https://aws.amazon.com/bedrock/)
 ---
 
 ## 🎯 Overview
@@ -220,7 +220,7 @@ pavement-assessment-agent/
 
 ---
 
-## 🎯 Key Design Decisions
+<!-- ## 🎯 Key Design Decisions
 
 **LangGraph over Simple Chains:**
 - Multi-step reasoning with observable workflows
@@ -254,7 +254,7 @@ pavement-assessment-agent/
 - AWS Bedrock: ~$300/month
 - Compute: ~$50/month
 - Database: ~$30/month
-- **Total: ~$380/month**
+- **Total: ~$380/month** -->
 
 ---
 
@@ -271,9 +271,9 @@ pavement-assessment-agent/
 - AWS credentials
 - API keys
 
----
+<!-- ---
 
-## 🚀 Production Deployment
+<!-- ## 🚀 Production Deployment
 
 **For production use:**
 1. Migrate to PostgreSQL
@@ -281,7 +281,7 @@ pavement-assessment-agent/
 3. Use S3 for image storage
 4. Add CloudWatch monitoring
 5. Set up CI/CD pipeline
-6. Enable auto-scaling
+6. Enable auto-scaling --> -->
 
 ---
 
